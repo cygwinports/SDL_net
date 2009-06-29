@@ -1,5 +1,5 @@
 category: Net
-requires: cygwin libSDL_net1.2_0 libSDL-devel
+requires: libSDL_net1.2_0 libSDL-devel
 external-source: SDL_net
 sdesc: "SDL network library (development)"
 ldesc: "This is an example portable network library for use with SDL."
