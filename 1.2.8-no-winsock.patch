@@ -1,0 +1,11 @@
+--- origsrc/SDL_net-1.2.8/configure.in	2012-01-15 10:20:10.000000000 -0600
++++ src/SDL_net-1.2.8/configure.in	2012-06-03 18:17:02.602191500 -0500
+@@ -86,7 +86,7 @@ case "$host" in
+     x86_64-*-mingw32*)
+         INETLIB="-lws2_32 -liphlpapi"
+         ;;
+-    *-*-cygwin* | *-*-mingw32*)
++    *-*-mingw32*)
+         INETLIB="-lwsock32 -liphlpapi"
+         ;;
+     sparc*-*-solaris*)
