@@ -1,5 +1,0 @@
-category: Net
-requires: libSDL1.2_0
-external-source: SDL_net
-sdesc: "SDL network library (runtime)"
-ldesc: "This is an example portable network library for use with SDL."

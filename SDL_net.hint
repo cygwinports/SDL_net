@@ -1,3 +1,0 @@
-category: Net
-sdesc: "SDL network library (sources)"
-ldesc: "This is an example portable network library for use with SDL."

@@ -1,0 +1,20 @@
+NAME="SDL_net"
+VERSION=1.2.8
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="SDL network library"
+DESCRIPTION="This is an example portable network library for use with SDL."
+HOMEPAGE="http://www.libsdl.org/projects/SDL_net/"
+SRC_URI="${HOMEPAGE}/release/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="1.2.8-no-winsock.patch"
+
+PKG_NAMES="libSDL_net1.2_0 libSDL_net-devel"
+libSDL_net1_2_0_CONTENTS='usr/bin/*-1-2-0.dll usr/share/doc/'
+libSDL_net_devel_CONTENTS='usr/include/ usr/lib/'
+
+DISTCLEANFILES="acinclude.m4"
+
+NO_AUTOHEADER=1
+CYGCONF_ARGS="--disable-gui"
+
+KEEP_LA_FILES="none"
